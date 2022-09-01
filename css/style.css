@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+header nav div a img {
+  width: 100px; }
+
+header div div div .medida {
+  height: 22rem; }
+
+main {
+  background-color: black; }
+  main h1 {
+    color: #fbf9f9;
+    border: black 2px solid;
+    padding: 15px;
+    background-color: #272424;
+    font-size: 42px; }
+    main h1:hover {
+      color: #e01515;
+      text-decoration: underline;
+      transition: 0.3s;
+      transform: skew(-45deg); }
+
+footer {
+  padding: 26px;
+  background-color: rgba(0, 0, 0, 0.828); }
+  footer div ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around; }

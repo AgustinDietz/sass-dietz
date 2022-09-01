@@ -1,0 +1,13 @@
+footer {
+    padding: 26px;
+    background-color: rgba(0, 0, 0, 0.828);
+
+    div {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            justify-content: space-around;
+        }
+    }
+}
