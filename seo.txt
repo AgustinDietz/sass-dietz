@@ -1,0 +1,13 @@
+1 Coloque etiqueta description en html.
+index description: Sitio oficial de los mejores accesorios de calidad en Argentina
+productos description: Productos de calidad
+nosotros description: Nunca dejes de brillar
+faq description: Pregunta frecuentes de los clientes al comprar en ADDIAMOND
+contacto description: Contactanos para brindarte asesoramiento
+
+2- Coloque etiquetas metakeyword en html.
+index keyword: accesorios, anillos, gorras, cadenas, acero quirurgico.
+productos Keyword: cadenas, gorras, anillos, dijes, pulseras,
+nosotros keyword: addiamond, acero, calidad, precio, tiendaonline,
+faq keyword: faq, preguntas, medidas, devolucion, envio,
+contacto keyword: contacto, instagram, facebook, whatsapp, consultas

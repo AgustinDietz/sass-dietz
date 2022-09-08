@@ -4,6 +4,16 @@
     box-sizing: border-box
 }
 //PARTIAL = HOJAS PARCIALES
-@import './secciones/header-index';
+// ALL PAGES
+@import './secciones/header-all-pages';
+@import './secciones/main-all-index';
+@import './secciones/footer-all-pages';
+
+//INDEX
 @import './secciones/main-index';
-@import './secciones/footer-index';
+
+//PRODUCTOS
+@import './secciones/main-productos';
+
+//CONTACTOS
+@import './secciones/main-contactos';
