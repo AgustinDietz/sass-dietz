@@ -48,17 +48,22 @@ main div .btn-card {
   background-color: black;
   color: white; }
 
-main div form {
-  width: 85vw;
-  max-width: 450px;
-  margin: auto;
-  background: rgba(189, 189, 189, 0.5);
-  padding: 40px 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 7px; }
-  main div form .btn {
-    width: 100%;
-    color: black;
-    background-color: white;
-    border: black solid 2px; }
+main .contenedor-formularios {
+  background-color: #020202;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  main .contenedor-formularios form {
+    width: 85vw;
+    max-width: 450px;
+    margin: auto;
+    background: rgba(189, 189, 189, 0.5);
+    padding: 40px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px; }
+    main .contenedor-formularios form .btn {
+      width: 100%;
+      color: black;
+      background-color: white;
+      border: black solid 2px; }
