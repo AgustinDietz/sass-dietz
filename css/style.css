@@ -70,5 +70,6 @@ main .contenedor-formularios {
 
 main .accordion {
   padding: 15px 35px 15px 35px; }
-  main .accordion div div h2 button {
-    background-color: aqua; }
+  main .accordion div h2 button {
+    background-color: #757272;
+    color: white; }
