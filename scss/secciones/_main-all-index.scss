@@ -2,11 +2,12 @@ main {
     background-color: black;
 
     h1 {
+        margin: 0;
+        padding: 2px;
         color: rgb(251, 249, 249);
-        border: black 2px solid;
-        padding: 15px;
         background-color: rgb(39, 36, 36);
-        font-size: 42px;
+        font-size: 35px;
+    
 
         &:hover {
             color: rgb(224, 21, 21);

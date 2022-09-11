@@ -12,11 +12,11 @@ header div div div .medida {
 main {
   background-color: black; }
   main h1 {
+    margin: 0;
+    padding: 2px;
     color: #fbf9f9;
-    border: black 2px solid;
-    padding: 15px;
     background-color: #272424;
-    font-size: 42px; }
+    font-size: 35px; }
     main h1:hover {
       color: #e01515;
       text-decoration: underline;
@@ -67,3 +67,8 @@ main .contenedor-formularios {
       color: black;
       background-color: white;
       border: black solid 2px; }
+
+main .accordion {
+  padding: 15px 35px 15px 35px; }
+  main .accordion div div h2 button {
+    background-color: aqua; }
