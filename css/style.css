@@ -4,13 +4,14 @@
   box-sizing: border-box; }
 
 header nav div a img {
-  width: 100px; }
+  width: 100px;
+  margin-left: 1rem; }
 
 header div div div .medida {
   height: 22rem; }
 
 main {
-  background-color: black; }
+  background-color: #0b0b0b; }
   main h1 {
     margin: 0;
     padding: 2px;

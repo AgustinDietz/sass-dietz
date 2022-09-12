@@ -4,6 +4,8 @@
     box-sizing: border-box
 }
 //PARTIAL = HOJAS PARCIALES
+//VARIABLES COLORES
+@import './variables/colores';
 // ALL PAGES
 @import './secciones/header-all-pages';
 @import './secciones/main-all-pages';
