@@ -15,7 +15,7 @@ header div div div .medida {
   overflow: hidden; }
 
 main {
-  min-height: 100vh;
+  min-height: 75vh;
   background-color: #262526;
   background-image: url(../img/img-backgroud/fondoLadrillos.jpeg); }
   main h1 {
@@ -46,7 +46,9 @@ main div .seccion-card {
   background-color: black; }
 
 main .tituloPequeno {
-  color: aliceblue;
+  background-color: red;
+  color: black;
+  text-transform: uppercase;
   text-align: center; }
 
 main div .card {

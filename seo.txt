@@ -18,3 +18,5 @@ Formularios...$colorFormularios: #d7d8da71;
 H1....$colorTitulos: #f3f3f3;
 $grisOscuro: #7f8084;
 $blanco: white;
+
+4-Aplique Mixin en h2 en pages index y nosotros.. para cumplir con la entrega

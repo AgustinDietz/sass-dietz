@@ -1,0 +1,7 @@
+@mixin fontStyle ($colorFondo){
+    background-color: $colorFondo;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
