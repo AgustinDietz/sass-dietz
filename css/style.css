@@ -3,19 +3,25 @@
   margin: 0;
   box-sizing: border-box; }
 
-header nav div a img {
+header .logo-banner {
   width: 100px;
   margin-left: 1rem; }
 
+header ul li {
+  display: flex;
+  font-size: 18px; }
+
 header div div div .medida {
-  height: 22rem; }
+  overflow: hidden; }
 
 main {
-  background-color: #0b0b0b; }
+  min-height: 100vh;
+  background-color: #262526;
+  background-image: url(/img/img-backgroud/fondoLadrillos.jpeg); }
   main h1 {
     margin: 0;
     padding: 2px;
-    color: #fbf9f9;
+    color: #f3f3f3;
     background-color: #272424;
     font-size: 35px; }
     main h1:hover {
@@ -39,18 +45,27 @@ main div .seccion-card {
   padding: 2rem;
   background-color: black; }
 
+main .tituloPequeno {
+  color: aliceblue;
+  text-align: center; }
+
 main div .card {
-  width: 10rem; }
+  padding: 4px; }
 
 main div .card-body {
-  background-color: gray; }
+  background-color: #7f8084;
+  color: white;
+  padding: 2px;
+  border-radius: 3px;
+  justify-content: center;
+  text-align: center; }
 
 main div .btn-card {
   background-color: black;
-  color: white; }
+  color: white;
+  margin-bottom: 10px; }
 
 main .contenedor-formularios {
-  background-color: #020202;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -58,7 +73,7 @@ main .contenedor-formularios {
     width: 85vw;
     max-width: 450px;
     margin: auto;
-    background: rgba(189, 189, 189, 0.5);
+    background: #d7d8da71;
     padding: 40px 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -70,7 +85,7 @@ main .contenedor-formularios {
       border: black solid 2px; }
 
 main .accordion {
-  padding: 15px 35px 15px 35px; }
-  main .accordion div h2 button {
-    background-color: #757272;
+  padding: 35px 4rem 15px 4rem; }
+  main .accordion div .collapsed {
+    background-image: url(/img/img-backgroud/fondoLadrillos.jpeg);
     color: white; }

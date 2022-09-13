@@ -1,16 +1,12 @@
 main {
   .accordion {
-    padding: 15px 35px 15px 35px;
-    
-        div{
-            h2{
-                button{
-                    background-color:#757272;
-                    color: white;
-                }
-            }
-        }
+    padding: 35px 4rem 15px 4rem;
 
+    div {
+      .collapsed {
+        background-image: url(/img/img-backgroud/fondoLadrillos.jpeg);
+        color: white;
+      }
     }
-
   }
+}

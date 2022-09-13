@@ -1,10 +1,12 @@
 main {
-    background-color:$colorPrincipal;
+    min-height: 100vh;
+    background-color:$colorMain;
+    background-image: url(/img/img-backgroud/fondoLadrillos.jpeg);
 
     h1 {
         margin: 0;
         padding: 2px;
-        color: rgb(251, 249, 249);
+        color: $colorTitulos;
         background-color: rgb(39, 36, 36);
         font-size: 35px;
     

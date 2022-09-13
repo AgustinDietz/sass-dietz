@@ -1,12 +1,20 @@
-main{
-    div{
-        .card{
-        width: 10rem;}
-        .card-body{
-        background-color: gray;}
-        .btn-card{
-        background-color: black;
-        color: white;}
-        
+main {
+  div {
+    .card {
+      padding: 4px;
     }
+    .card-body {
+      background-color:$grisOscuro;
+      color:$blanco;
+      padding: 2px;
+      border-radius: 3px;
+      justify-content: center;
+      text-align: center;
+    }
+    .btn-card {
+      background-color: black;
+      color: $blanco;
+      margin-bottom: 10px;
+    }
+  }
 }

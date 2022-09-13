@@ -1,22 +1,22 @@
 header {
-    nav {
-        div {
-            a {
-                img {
-                    width: 100px;
-                    margin-left: 1rem;
-                }
-            }
-        }
+  .logo-banner {
+    width: 100px;
+    margin-left: 1rem;
+  }
+  & ul {
+    li {
+      display: flex;
+      font-size: 18px;
     }
+  }
 
+  div {
     div {
-        div {
-            div {
-                .medida {
-                    height: 22rem;
-                }
-            }
+      div {
+        .medida {
+          overflow: hidden;
         }
+      }
     }
+  }
 }
