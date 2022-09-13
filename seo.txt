@@ -11,3 +11,10 @@ productos Keyword: cadenas, gorras, anillos, dijes, pulseras,
 nosotros keyword: addiamond, acero, calidad, precio, tiendaonline,
 faq keyword: faq, preguntas, medidas, devolucion, envio,
 contacto keyword: contacto, instagram, facebook, whatsapp, consultas
+
+3-Aplique Variables de colores en 
+Main...$colorMain: #262526;
+Formularios...$colorFormularios: #d7d8da71;
+H1....$colorTitulos: #f3f3f3;
+$grisOscuro: #7f8084;
+$blanco: white;
