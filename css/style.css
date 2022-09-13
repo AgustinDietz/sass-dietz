@@ -87,5 +87,5 @@ main .contenedor-formularios {
 main .accordion {
   padding: 35px 4rem 15px 4rem; }
   main .accordion div .collapsed {
-    background-image: url(../img/img-backgroud/fondoLadrillos.jpeg);
+    background-image: url(./img/img-backgroud/fondoLadrillos.jpeg);
     color: white; }
