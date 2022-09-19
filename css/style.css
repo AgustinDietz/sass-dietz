@@ -67,6 +67,11 @@ main div .btn-card {
   color: white;
   margin-bottom: 10px; }
 
+main p {
+  color: white;
+  text-align: justify;
+  margin: 8rem; }
+
 main .contenedor-formularios {
   display: flex;
   flex-direction: column;
