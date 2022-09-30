@@ -15,7 +15,7 @@ header div div div .medida {
   overflow: hidden; }
 
 main {
-  min-height: 75vh;
+  min-height: 78vh;
   background-color: #262526;
   background-image: url(../img/img-backgroud/fondoLadrillos.jpeg); }
   main h1 {
@@ -39,17 +39,50 @@ footer {
     list-style: none;
     justify-content: space-around; }
 
-main div .seccion-card {
-  width: 100%;
-  min-height: 500px;
-  padding: 2rem;
-  background-color: black; }
+main .container {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(1fr 1fr 1fr 1fr);
+  grid-template-rows: repeat(3, 26vh);
+  gap: 13px 10px;
+  justify-items: stretch;
+  grid-template-areas: "gorras gorras anillos anillos" "gorras gorras dijes dijes" "gorras gorras cadenas cadenas"; }
 
-main .tituloPequeno {
-  background-color: red;
-  color: black;
-  text-transform: uppercase;
-  text-align: center; }
+main .anillos {
+  grid-area: anillos; }
+
+main .cadenas {
+  grid-area: cadenas; }
+
+main .gorras {
+  grid-area: gorras; }
+
+main .container-gorras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  main .container-gorras img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    margin: 10px;
+    position: relative;
+    transition: all 500ms ease-out;
+    justify-content: center; }
+  main .container-gorras h5 {
+    font-size: 2.6rem;
+    color: #f3f3f3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+main .dijes {
+  grid-area: dijes; }
+
+main .main-h5 {
+  color: #f3f3f3; }
 
 main div .card {
   padding: 4px; }
@@ -67,10 +100,11 @@ main div .btn-card {
   color: white;
   margin-bottom: 10px; }
 
-main p {
+main .parrafo-nostros {
+  font-size: 20px;
   color: white;
   text-align: justify;
-  margin: 8rem; }
+  margin: 5rem; }
 
 main .contenedor-formularios {
   display: flex;
