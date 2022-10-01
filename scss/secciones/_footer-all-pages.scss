@@ -1,13 +1,72 @@
+*{
+    transition: 0.5s;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
 footer {
-    padding: 26px;
-    background-color: $colorfooter;
+    width: 100%;
+    position: absolute;
+    padding: 2rem 8%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-footer{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    padding: 0;
 
-    div {
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            list-style: none;
-            justify-content: space-around;
-        }
-    }
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(../img/img-footer/facebookBlanco.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+.social-icon:hover{
+    background-color: black;
+    filter: invert(1);
+}
+.social-icon:nth-of-type(2){
+    background-image: url(../img/img-footer/instagramBlanco.png);
+}
+.social-icon:nth-of-type(3){
+    background-image: url(../img/img-footer/twitterBlanco.png);
+}
+.footer-menu-container{
+    list-style-type: none;
+    font-size: 18px;
+}
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.menu-item:hover{
+     opacity: 1;
+     color: #f2f2f2;
+}
+.copyright{
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
 }
