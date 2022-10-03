@@ -3,20 +3,33 @@ header {
     width: 100px;
     margin-left: 1rem;
   }
-  & ul {
-    li {
-      display: flex;
-      font-size: 18px;
-    }
+  .navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 15px;
   }
-
+  .form-control,.btn-form{
+    font-size: 14px;
+  }
+}
+div {
   div {
     div {
-      div {
-        .medida {
-          overflow: hidden;
-        }
+      .medida {
+        overflow: hidden;
       }
     }
   }
+}
+@media (max-width: 767px) {
+  header .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
 }

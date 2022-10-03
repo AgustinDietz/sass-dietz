@@ -3,7 +3,7 @@ main {
     display: grid;
     grid-template-columns: repeat(1fr 1fr 1fr 1fr);
     grid-template-rows: repeat(6, 13vh);
-    padding: 80px 40px 40px 40px;
+    padding: 30px 40px 40px 40px;
     gap: 20px 17px;
     justify-items: stretch;
     grid-template-areas:
@@ -50,8 +50,12 @@ position: relative;
   top: 50%;
   transform: translate(-50%,-50%);
 }
+.gallery__title a{
+  text-decoration: none;
+  color: rgba(253, 253, 253, 0.80);
+}
 //Media Querys Mobile Last
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .gallery-container {
     grid-template-areas:
       "gorras gorras"

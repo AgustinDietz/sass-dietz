@@ -21,7 +21,7 @@
     <!-- HEADER INDEX -->
     <header>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #000000;">
             <div class="container-fluid">
                 <a class="navbar-brand" href=./index.html>
                     <img class="logo-banner" src="./img/img-logo/logo.png" alt="Logo">
@@ -31,8 +31,9 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 mb-auto">
+                    <ul class="navbar-nav ml-auto mb-2">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                         </li>
@@ -49,7 +50,7 @@
                             <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form class="d-flex buscar" role="search">
                         <input class="form-control me-2" type="search" placeholder="Producto" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
@@ -99,22 +100,30 @@
             <!-- anillos -->
             <div class="anillos gallery__item">
                 <img src="./img/img-index/anillos.jpg" alt="img-anillos " class="gallery__img">
-                <h5 class="gallery__title">ANILLOS</h5>
+                <h5 class="gallery__title">
+                    <a href="./pages/productos.html">ANILLOS</a>
+                </h5>
             </div>
             <!-- Cadenas -->
             <div class="cadenas gallery__item">
                 <img src="./img/img-index/cadenas.jpg" alt="img-cadenas " class="gallery__img">
-                <h5 class="gallery__title">CADENAS</h5>
+                <h5 class="gallery__title">
+                    <a href="./pages/productos.html">CADENAS</a>
+                </h5>
             </div>
             <!-- Gorras -->
             <div class="gorras gallery__item">
                 <img src="./img/img-index/gorras.jpg" alt="img-gorras " class="gallery__img">
-                <h5 class="gallery__title">GORRAS</h5>
+                <h5 class="gallery__title">
+                    <a href="./pages/productos.html">GORRAS</a>
+                </h5>
             </div>
             <!-- Dijes -->
             <div class="dijes gallery__item">
                 <img src="./img/img-index/dijes.png" alt="img-dijes " class="gallery__img">
-                <h5 class="gallery__title">DIJES</h5>
+                <h5 class="gallery__title">
+                    <a href="./pages/productos.html">DIJES</a>
+                </h5>
             </div>
         </div>
     </main>
@@ -143,7 +152,7 @@
                 <a class="menu-item" href="./pages/contacto.html">Contacto</a>
             </li>
         </ul>
-        <span class="copyright">&copy;2022, ADDIAMOND. Todos los derechos reservados</span>
+        <span class="copyright">&copy;2022. ADDIAMOND. Todos los derechos reservados</span>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
